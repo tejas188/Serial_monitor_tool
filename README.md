@@ -24,3 +24,5 @@ A simple serial monitor GUI built with PyQt6 for communicating with serial (COM)
 ```bash
 git clone https://github.com/yourusername/pyqt6-serial-monitor.git
 cd pyqt6-serial-monitor
+pyinstaller --onefile --windowed --icon=free-monitor-icon-1.ico .\serial_monitor.py
+
